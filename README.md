@@ -135,8 +135,8 @@ const url = "https://www.youtube.com/watch?v=qZIQAk-BUEc"
 <details>
   <summary><b>Lists of module name (type = edu)</b> (click to show)</summary>
 
-| module name | params | thing | response | description |
-| :--- | :---------- | :--- | :--- | :--- |
+| module name | params | response | description |
+| :--- | :---------- | :--- | :--- |
 | wiki | query | json | Wikipedia |
 | kbbi | query | json | KBBI (Kamus Besar Bahasa Indonesia) |
 | gabut | - | json | - |
