@@ -43,7 +43,7 @@ const url = "https://www.youtube.com/watch?v=qZIQAk-BUEc"
 <details>
   <summary><b>Lists of module name (type = media)</b> (click to show)</summary>
 
-| module name | params response | description |
+| module name | params | response | description |
 | :--- | :---------- | :--- | :--- | :--- |
 | instagram | url | json | Instagram Downloader |
 | ytmp4 | url | json | Youtube Mp4 Downloader |
@@ -70,7 +70,7 @@ const url = "https://www.youtube.com/watch?v=qZIQAk-BUEc"
 <details>
   <summary><b>Lists of module name (type = textpro)</b> (click to show)</summary>
 
-| module name | params response |
+| module name | params | response |
 | :--- | :---------- | :--- | :--- |
 | blackpink | text1 | buffer |
 | sky | text1 | buffer |
