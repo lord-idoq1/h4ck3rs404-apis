@@ -37,9 +37,9 @@ module.exports.soundcloud = function soundcloud(url) {
 	})
 }
 
-module.exports.joox = function joox(url) {
+module.exports.joox = function joox(q) {
 	return new Promise((resolve, reject) => {
-		fetch(baseURI+'/api/joox?judul=' + url + '&apikey=404Api')
+		fetch(baseURI+'/api/joox?judul=' + q + '&apikey=404Api')
 		.then(res => res.json())
 		.then(resolve)
 		.catch(reject)
