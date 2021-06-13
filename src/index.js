@@ -1,0 +1,10 @@
+exports.media = require('./media');
+exports.textpro = require('./textpro');
+exports.edu = require('./education');
+exports.search = require('./search');
+exports.enc = require('./encrypt');
+exports.fun = require('./fun');
+//exports.news = require('./news');
+//exports.film = require('./film');
+//exports.random = require('./random');
+//exports.nsfw = require('./nsfw');
