@@ -44,7 +44,7 @@ const url = "https://www.youtube.com/watch?v=qZIQAk-BUEc"
   <summary><b>Lists of module name (type = media)</b> (click to show)</summary>
 
 | module name | params | response | description |
-| :--- | :---------- | :--- | :--- | :--- |
+| :--- | :---------- | :--- | :--- |
 | instagram | url | json | Instagram Downloader |
 | ytmp4 | url | json | Youtube Mp4 Downloader |
 | ytmp3 | url | json | Youtube mp3 Downloader |
@@ -164,7 +164,7 @@ const url = "https://www.youtube.com/watch?v=qZIQAk-BUEc"
   <summary><b>Lists of module name (type = search)</b> (click to show)</summary>
 
 | module name | params | response | description |
-| :--- | :---------- | :--- | :--- | :--- |
+| :--- | :---------- | :--- | :--- |
 | playstore | query | json | plasytore.com |
 | bacakomik | query | json | bacakomik.co |
 | jalantikus | query | json | jalantikus.com |
@@ -204,7 +204,7 @@ const url = "https://www.youtube.com/watch?v=qZIQAk-BUEc"
   <summary><b>Lists of module name (type = enc)</b> (click to show)</summary>
 
 | module name | params | response | description |
-| :--- | :---------- | :--- | :--- | :--- |
+| :--- | :---------- | :--- | :--- |
 | ebase32 | text | json | encrypt base32 |
 | dbase32 | encode | json | decrypt base32 |
 | ebase64 | text | json | encrypt base64 |
