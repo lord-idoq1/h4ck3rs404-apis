@@ -1,0 +1,34 @@
+{
+  "name": "h4ck3rs404-api",
+  "version": "1.0.0",
+  "description": "Access h4ck3rs404 Rest Api Programmatically",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RDTUTORIAL/h4ck3rs404-apis.git"
+  },
+  "keywords": [
+    "nodejs",
+    "rest api",
+    "api",
+    "h4ck3rs404",
+    "scraper"
+  ],
+  "author": "h4ck3rs404 // wa.me/6287856053716",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/RDTUTORIAL/h4ck3rs404-apis/issues"
+  },
+  "homepage": "https://github.com/RDTUTORIAL/h4ck3rs404-apis#readme",
+  "dependencies": {
+    "bent": "^7.3.12",
+    "jsdom": "^16.4.0",
+    "node-fetch": "^2.6.1"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
