@@ -1,8 +1,8 @@
-# ArugaZ-Api
-Access ArugaZ Rest Api Programmatically
+# h4ck3rs404-api
+Access h4ck3rs404 Rest Api Programmatically
 
 ### Main website 
-[arugaz.my.id](https://arugaz.my.id)
+[h4ck3rs404-api](https://h4ck3rs404-api.herokuapp.com)
 
 #### If you have any suggestions of a website, open an issue!
 
@@ -10,60 +10,48 @@ Access ArugaZ Rest Api Programmatically
 
 Via NPM:
 ```bash
-$ npm install @arugaz/arugaz-api
+$ npm install h4ck3rs404-apis
 ```
 
 ## Simple to Use
 
 ```js
-const arugaz = require('@arugaz/arugaz-api');
+const 404 = require('h4ck3rs404-apis');
 
 /*
-arugaz.type.module-name(params)
+404.type.module-name(params)
 .then(res => console.log(res))
 .catch(err => console.log(err))
 */
 ```
 
-### Social Media
+### Media
 
 ```js
 //Example!
-arugaz.sosmed.ytsearch('alan walker')
+404.media.soundcloud('https://soundcloud.com/aviwkila/aviwkila-doa-untuk-kamu')
 .then(res => console.log(res))
 .catch(err => console.log(err))
 
-arugaz.sosmed.xnxxdetail('https://www.xnxx.com/video-hw4efca/japanese_mom_f._son_to_have_sex_with_her')
+const url = "https://www.youtube.com/watch?v=qZIQAk-BUEc"
+
+404.media.ytmp3(url)
 .then(res => console.log(res))
 .catch(err => console.log(err))
 ```
 
 <details>
-  <summary><b>Lists of module name (type = sosmed)</b> (click to show)</summary>
+  <summary><b>Lists of module name (type = media)</b> (click to show)</summary>
 
-| module name | params | thing | response | description |
+| module name | params response | description |
 | :--- | :---------- | :--- | :--- | :--- |
-| ytsearch | query | youtube title | json | Youtube Search |
-| ytaudio | url | youtube url | json | Get Youtube Audio |
-| ytvideo | url | youtube url | json | Youtube Video |
-| instagram | url | instagram url | json | Instagram Post |
-| stalkig | query | instagram username | json | Instagram Profile |
-| storyig | query | instagram username | json | Instagram Story |
-| highlightig | query | instagram username | json | Instagram Highlight |
-| tiktok | url | tiktok url | json | Tiktok Download No WM |
-| twtimg | url | twitter url | json | Twitter Image |
-| twtvid | url | twitter url | json | Twitter Video |
-| stalktwt | query | twitter username | json | Twitter Profile |
-| facebook | url | facebook url | json | Facebook Video |
-| phubsearch | query | pornhub title | json | Pornhub Search |
-| phubdetail | url | pornhub url | json | Pornhub Detail |
-| xvidsearch | query | xvideo title | json | XVideo Search |
-| xviddetail | url | xvideo url | json | XVideo Detail |
-| xnxxsearch | query | xnxx title | json | Xnxx Search |
-| xnxxdetail | url | xnxx url | json | Xnxx Detail |
-| filmsearch | query | filmapik title | json | Movie Search |
-| filmdetail | url | filmapik url | json | Movie Detail |
-
+| instagram | url | json | Instagram Downloader |
+| ytmp4 | url | json | Youtube Mp4 Downloader |
+| ytmp3 | url | json | Youtube mp3 Downloader |
+| joox | query | json | Joox Downloader |
+| soundcloud | url | json | Soundcloud Downloader |
+| mediafire | url | json | Mediafire Downloader |
+  
 </details>
 
 ### Text Pro
