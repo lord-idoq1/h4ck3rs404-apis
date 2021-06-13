@@ -71,7 +71,7 @@ const url = "https://www.youtube.com/watch?v=qZIQAk-BUEc"
   <summary><b>Lists of module name (type = textpro)</b> (click to show)</summary>
 
 | module name | params | response |
-| :--- | :---------- | :--- | :--- |
+| :--- | :---------- | :--- |
 | blackpink | text1 | buffer |
 | sky | text1 | buffer |
 | toxic | text1 | buffer |
@@ -244,7 +244,7 @@ const url = "https://www.youtube.com/watch?v=qZIQAk-BUEc"
   <summary><b>Lists of module name (type = fun)</b> (click to show)</summary>
 
 | module name | params | response |
-| :--- | :---------- | :--- | :--- |
+| :--- | :---------- | :--- |
 | caklontong | - | json |
 | tebakgambar | - | json |
 | family100 | - | json |
