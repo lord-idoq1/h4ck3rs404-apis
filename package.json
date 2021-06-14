@@ -1,10 +1,10 @@
 {
-  "name": "h4ck3rs404-api",
+  "name": "h4ck3rs404-apis",
   "version": "1.0.0",
   "description": "Access h4ck3rs404 Rest Api Programmatically",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -12,12 +12,12 @@
   },
   "keywords": [
     "nodejs",
-    "rest api",
+    "rest",
     "api",
     "h4ck3rs404",
     "scraper"
   ],
-  "author": "h4ck3rs404 // wa.me/6287856053716",
+  "author": "h4ck3rs404 <woytesaja@gmail.com> (https://h4ck3rs404-api.herokuapp.com/)",
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/RDTUTORIAL/h4ck3rs404-apis/issues"
@@ -27,8 +27,5 @@
     "bent": "^7.3.12",
     "jsdom": "^16.4.0",
     "node-fetch": "^2.6.1"
-  },
-  "directories": {
-    "lib": "lib"
   }
 }
