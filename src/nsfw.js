@@ -1,5 +1,5 @@
 const bent = require('bent')
-const baseURI = 'https://h4ck3rs404-api.herokuapp.com/'
+const baseURI = 'https://xtream-api.herokuapp.com/'
 
 module.exports.school = function school() {
 	return new Promise((resolve, reject) => {
