@@ -1,5 +1,5 @@
 const fetch = require('node-fetch')
-const baseURI = 'https://h4ck3rs404-api.herokuapp.com/'
+const baseURI = 'https://xtream-api.herokuapp.com/'
 
 module.exports.indoxxi = function indoxxi(q) {
 	return new Promise((resolve, reject) => {
